@@ -28,11 +28,11 @@ function toggle(source) {
 
 function myFunction2() {
   // Declare variables
-  var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput2");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable2");
-  tr = table.getElementsByTagName("tr");
+  var input_1, filter_1, table_1, tr_1, td_1, j;
+  input_1 = document.getElementById("myInput2");
+  filter_1 = input.value.toUpperCase();
+  table_1 = document.getElementById("myTable2");
+  tr_1 = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
@@ -48,7 +48,7 @@ function myFunction2() {
 }
 
 function toggle(source) {
-  checkboxes = document.getElementsByName('foo');
+  checkboxes = document.getElementsByName('bar');
   for(var i=0, n=checkboxes.length;i<n;i++) {
     checkboxes[i].checked = source.checked;
   }
