@@ -29,9 +29,9 @@ function toggle(source) {
 function myFunction2() {
   // Declare variables
   var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput");
+  input = document.getElementById("myInput2");
   filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
+  table = document.getElementById("myTable2");
   tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
